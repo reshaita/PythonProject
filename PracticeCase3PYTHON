@@ -1,0 +1,10 @@
+#Create input for Name, Address, Date Birth
+def WhoAreYou():
+    a = input('What is your Name? (Full Name)   :')
+    b = input('Where do you live? (Full Address)   :')
+    c = input('When and where you born?   :')
+
+    print("\033[0m"+'My name is' , '\033[1m'+a, "\033[0m"+'I live in','\033[1m'+b,
+          "\033[0m"+'and I was born in ','\033[1m'+c,'.')
+
+WhoAreYou()
